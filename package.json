@@ -1,0 +1,17 @@
+{
+    "name": "avalonia-fluent-ui-docs",
+    "version": "1.0.0",
+    "description": "Avalonia Fluent UI 中文文档",
+    "repository": "git@github.com:HiyorinI/Avalonia-Fluent-UI-Docs.git",
+    "author": "HiyorinI",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "dev": "vitepress dev",
+        "build": "vitepress build",
+        "preview": "vitepress preview"
+    },
+    "devDependencies": {
+        "vitepress": "^1.0.0"
+    }
+}

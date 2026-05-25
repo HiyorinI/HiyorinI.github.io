@@ -1,0 +1,36 @@
+/* 代码块样式 */
+pre,
+code {
+    font-family: 'Cascadia Code', 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+pre {
+    background-color: #f6f8fa;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+.dark pre {
+    background-color: #1e1e1e;
+}
+
+code {
+    background-color: rgba(175, 184, 193, 0.2);
+    padding: 0.2em 0.4em;
+    border-radius: 0.25rem;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+.component {
+    color: #0366d6;
+    font-weight: 600;
+}
+
+.dark .component {
+    color: #58a6ff;
+}
