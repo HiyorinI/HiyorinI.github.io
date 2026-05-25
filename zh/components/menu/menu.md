@@ -432,7 +432,7 @@ permalink: /zh/components/menu/menu/
     </DockPanel>
 ```
 
-## 上下文菜�?(ContextMemnu)
+## 上下文菜单 (ContextMemnu)
 
 <div align="center">
   <img src="/img/context_menu.png"  style="border-radius:12px;">
@@ -472,7 +472,7 @@ permalink: /zh/components/menu/menu/
 ```
 
 
-## 自定义内容的上下文菜�?
+## 自定义内容的上下文菜单
 
 <div align="center">
   <img src="/img/custom_content_context_menu.png"  style="border-radius:12px;">
