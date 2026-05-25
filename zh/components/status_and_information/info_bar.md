@@ -1,13 +1,13 @@
 ---
-title: 消息�?
+title: 消息条
 date: 2024-01-01 00:00:00
 permalink: /zh/components/status_and_information/info_bar/
 ---
 
-# 消息�?
+# 消息条
 
 
-## 消息�?(InfoBar)
+## 消息条 (InfoBar)
 
 <div align="center">
   <img src="/img/info_bar.png" style="border-radius:12px;">

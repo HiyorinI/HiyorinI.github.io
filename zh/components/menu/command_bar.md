@@ -1,12 +1,12 @@
 ---
-title: 命令�?
+title: 命令栏
 date: 2024-01-01 00:00:00
 permalink: /zh/components/menu/command_bar/
 ---
 
-# 命令�?
+# 命令栏?
 
-## 命令�?(CommandBar)
+## 命令栏(CommandBar)
 
 <div align="center">
   <img src="/img/command_bar.png"  style="border-radius:12px;">

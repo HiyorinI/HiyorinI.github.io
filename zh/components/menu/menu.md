@@ -6,7 +6,7 @@ permalink: /zh/components/menu/menu/
 
 # 菜单
 
-## 顶部菜单�?(Menu)
+## 顶部菜单栏(Menu)
 
 <div align="center">
   <img src="/img/menu.png"  style="border-radius:12px;">
@@ -47,7 +47,7 @@ permalink: /zh/components/menu/menu/
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="远程开�?.."/>
+            Header="远程开发"/>
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
@@ -57,7 +57,7 @@ permalink: /zh/components/menu/menu/
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="从磁盘全部重新加�?
+            Header="从磁盘全部重新加载
             HotKey="Ctrl+Alt+Y"
             InputGesture="Ctrl+Alt+Y"/>
         <MenuItem
@@ -80,7 +80,7 @@ permalink: /zh/components/menu/menu/
             <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="LF - Unix �?macOS(\n)"/>
+            Header="LF - Unix 和 macOS(\n)"/>
             <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
@@ -116,11 +116,11 @@ permalink: /zh/components/menu/menu/
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="使缓存失�?/>
+            Header="使缓存失效/>
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="退�?/>
+            Header="退出/>
         </MenuItem>
 
         <!--  Edit  -->
@@ -208,7 +208,7 @@ permalink: /zh/components/menu/menu/
             <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="下一个高亮显示用�?
+            Header="下一个高亮显示用法"
             IsEnabled="False"/>
             <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
@@ -223,7 +223,7 @@ permalink: /zh/components/menu/menu/
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="全�?
+            Header="全选"
             HotKey="Ctrl+A"
             InputGesture="Ctrl+A"/>
         </MenuItem>
@@ -241,11 +241,11 @@ permalink: /zh/components/menu/menu/
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="快速定�?/>
+            Header="快速定义"/>
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="快速定义类�?/>
+            Header="快速定义类型"/>
         <Separator/>
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
@@ -283,7 +283,7 @@ permalink: /zh/components/menu/menu/
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="�?
+            Header="类"
             HotKey="Ctrl+N"
             InputGesture="Ctrl+N"/>
         <MenuItem
@@ -310,7 +310,7 @@ permalink: /zh/components/menu/menu/
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="检查代�?/>
+            Header="检查代码"/>
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
@@ -324,7 +324,7 @@ permalink: /zh/components/menu/menu/
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="保存为实时模�?/>
+            Header="保存为实时模版"/>
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
@@ -348,7 +348,7 @@ permalink: /zh/components/menu/menu/
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="重命�?
+            Header="重命名"
             HotKey="Shift+F6"
             InputGesture="Shift+F6"/>
         </MenuItem>
@@ -403,12 +403,12 @@ permalink: /zh/components/menu/menu/
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="使用分析器运�?
+            Header="使用分析器运行"
             IsEnabled="False"/>
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="分析'Gallery'(使用 时间�?"/>
+            Header="分析'Gallery'(使用 时间线)"/>
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
@@ -424,7 +424,7 @@ permalink: /zh/components/menu/menu/
         <MenuItem
             Command="{Binding ClickedMenuItemCommand}"
             CommandParameter="{Binding $self.Header}"
-            Header="附加到进�?
+            Header="附加到进程"
             HotKey="Ctrl+Alt+F5"
             InputGesture="Ctrl+Alt+F5"/>
         </MenuItem>
@@ -461,7 +461,7 @@ permalink: /zh/components/menu/menu/
             <PathIcon Data="{StaticResource Paste}"/>
         </MenuItem.Icon>
         </MenuItem>
-        <MenuItem Header="添加�?>
+        <MenuItem Header="添加">
         <MenuItem Header="视频"/>
         <MenuItem Header="音频"/>
         </MenuItem>
@@ -505,7 +505,7 @@ permalink: /zh/components/menu/menu/
             Margin="11,0,0,0"
             VerticalAlignment="Center"
             FontSize="18"
-            Text="妃爱�?/>
+            Text="妃爱亲"/>
         <TextBlock
             Grid.Row="1"
             Grid.Column="1"
@@ -522,7 +522,7 @@ permalink: /zh/components/menu/menu/
             Theme="{StaticResource TransparentButton}"/>
         </Grid>
         <Separator HorizontalAlignment="Stretch"/>
-        <MenuItem Header="管理账户和设�?>
+        <MenuItem Header="管理账户和设置">
         <MenuItem.Icon>
             <PathIcon Data="{StaticResource People}"/>
         </MenuItem.Icon>
@@ -612,7 +612,7 @@ permalink: /zh/components/menu/menu/
                 <NativeMenuItem Header="Option 2"/>
                 <NativeMenuItemSeparator/>
                 <NativeMenuItem Header="Option 3"/>
-                <NativeMenuItem Click="OnClicked" Header="退�?/>
+                <NativeMenuItem Click="OnClicked" Header="退出"/>
               </NativeMenu>
             </NativeMenuItem>
           </NativeMenu>

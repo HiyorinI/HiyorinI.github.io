@@ -1,5 +1,5 @@
 ---
-title: 提示�?
+title: 提示信息
 date: 2024-01-01 00:00:00
 permalink: /zh/components/status_and_information/tool_tip/
 ---
