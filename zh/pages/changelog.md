@@ -26,7 +26,7 @@ permalink: /zh/pages/changelog/
 * RadioButton 添加Theme `ChipsRadioButton` 样式
 
 ### 多语言
-* 添加了 `en-US` `zh-CN` `ja-JP` 的默认翻译支持, 可添加自定义翻译语言, 详细介绍请看[多语言]()
+* 添加了 `en-US` `zh-CN` `ja-JP` 的默认翻译支持, 可添加自定义翻译语言, 详细介绍请看[多语言](/zh/pages/localization.md)
 
 ## v1.0.0
 
