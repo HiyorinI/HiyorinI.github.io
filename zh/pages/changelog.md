@@ -6,6 +6,28 @@ permalink: /zh/pages/changelog/
 
 # 更新日志
 
+## v1.0.1
+
+### 添加了一新组件
+* [FlipView](/zh/components/view/flip_view.md)
+* [SingleDirectionScrollViewer](/zh/components/scroll/smooth_scroll.md)
+* PipsPager
+* [ToolTipSlider](/zh/components/basic_input/slider.md)
+* [RoundListBox](/zh/components/view/list_box.md)
+* [SubTitleRadioButton](/zh/components/basic_input/button.md)
+* [OutlinePushButton | OutlineToolButton](/zh/components/basic_input/button.md)
+* [FilledPushButton](/zh/components/basic_input/button.md)
+* [SegmentedView | SegmentedToggleView](/zh/components/navigation/top_navigation.md)
+* [MulitSelectionComboBox](/zh/components/basic_input/combobox.md)
+ 
+### 样式
+* PushButton, ToolButton添加`Round` `Accent Round` `Outlined` `Round Outlined`样式
+
+* RadioButton 添加Theme `ChipsRadioButton` 样式
+
+### 多语言
+* 添加了 `en-US` `zh-CN` `ja-JP` 的默认翻译支持, 可添加自定义翻译语言, 详细介绍请看[多语言]()
+
 ## v1.0.0
 
 ### 新增功能

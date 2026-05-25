@@ -28,6 +28,7 @@ export default defineConfig({
                         { text: '快速开始', link: '/zh/pages/quickstart' },
                         { text: '主题', link: '/zh/pages/theme' },
                         { text: '图标', link: '/zh/pages/icon' },
+                        { text: '多语言', link: '/zh/pages/localization' },
                         { text: '组件总览', link: '/zh/pages/components' },
                         { text: '更新日志', link: '/zh/pages/changelog' },
                     ]
