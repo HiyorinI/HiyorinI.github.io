@@ -8,13 +8,13 @@ permalink: /zh/pages/install/
 
 ## 通过 NuGet 安装
 
-推荐使用 NuGet 包管理器安装 Avalonia Fluent UI：
+推荐使用 NuGet 包管理器安装 Avalonia Fluent UI
 
 ```bash
 dotnet add package AvaloniaFluentUI
 ```
 
-或者在 Visual Studio 的 NuGet 包管理器控制台中运行：
+或者在 Visual Studio 的 NuGet 包管理器控制台中运行
 
 ```powershell
 Install-Package AvaloniaFluentUI

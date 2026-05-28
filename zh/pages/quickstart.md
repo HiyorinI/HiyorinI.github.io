@@ -30,9 +30,10 @@ dotnet add package AvaloniaFluentUI
 ### 修改 MainWindow.axaml
 
 ```xml
-<fluent:FluentWindow xmlns="https://github.com/avaloniaui"
+<wd:AppWindow xmlns="https://github.com/avaloniaui"
                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                     xmlns:fluent="using:AvaloniaFluentUI.Controls"
+                     xmlns:wd="using:AvaloniaFluentUI.Controls.Windoning"
+                     xmlns:ui="using:AvaloniaFluentUI.Controls"
                      x:Class="MyFluentApp.MainWindow"
                      Title="My Fluent App"
                      Width="800" Height="600">
@@ -42,14 +43,14 @@ dotnet add package AvaloniaFluentUI
                    FontSize="24"
                    FontWeight="Bold"/>
 
-        <fluent:PushButton Content="点击我"
+        <ui:PushButton Content="点击我"
                            Click="Button_Click"/>
 
-        <fluent:InfoBar Title="提示"
+        <ui:InfoBar Title="提示"
                         Message="这是一个 InfoBar 控件"
                         Severity="Informational"/>
     </StackPanel>
-</fluent:FluentWindow>
+</wd:AppWindow>
 ```
 
 ## 运行应用

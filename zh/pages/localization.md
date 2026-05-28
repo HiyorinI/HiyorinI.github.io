@@ -8,8 +8,8 @@ permalink: /zh/pages/localization/
 
 AvaloniaFluentUI提供了LocalizationService类,用于翻译内置组件的文本。使用方式较为简单，默认情况下翻译结果为`en-US`使用方法:
 
->[!警告]
->须在App.xaml.cs初始化里注册和设置默认地区,否则会获取不到Value 
+>[!Warning]
+>须在获取值之前初始化里注册和设置默认地区,否则会获取不到Value 
 
 * 运行时可切换语言, 但有些问题, 最好切换了语言重启软件
 

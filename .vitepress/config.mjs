@@ -15,7 +15,7 @@ export default defineConfig({
         nav: [
             { text: '指南', link: '/zh/pages/about' },
             { text: '组件', link: '/zh/pages/components' },
-            { text: 'GitHub', link: 'https://github.com/HiyorinI' }
+            // { text: 'GitHub', link: 'https://github.com/HiyorinI' }
         ],
 
         sidebar: {

@@ -8,8 +8,6 @@ permalink: /zh/components/navigation/top_navigation/
 
 ### 分段导航视图 (SegmentedView)
 
-#### 自带`Content`属性 暂不支持调整方向
-
 <div align="center">
   <img src="/img/segmented_view.png"  style="border-radius:12px;">
 </div>
@@ -36,11 +34,12 @@ permalink: /zh/components/navigation/top_navigation/
         <TextBlock Grid.Column="1" Text="发送"/>
     </Grid>
     </ui:SegmentedItem>
-    <ui:SegmentedView.Content/>
 </ui:SegmentedView>
 ```
 
 ### 分段切换导航视图 (SegmentedToggleView)
+
+* 可通过`Orientation`属性切换方向
 
 <div align="center">
   <img src="/img/segmented_toggle_view.png"  style="border-radius:12px;">
@@ -68,7 +67,6 @@ permalink: /zh/components/navigation/top_navigation/
         <TextBlock Grid.Column="1" Text="发送"/>
     </Grid>
     </ui:SegmentedItem>
-    <ui:SegmentedToggleView.Content/>
 </ui:SegmentedToggleView>
 ```
 
